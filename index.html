@@ -1,0 +1,71 @@
+<!-- Mateo Coda-Forno 20266263 | Nom Prénom Matricule -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musée Guggenheim Bilbao - Accueil</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body class="page-accueil">
+    <header>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="oeuvres.html">Oeuvres</a>
+            <a href="galerie.html">Galerie</a>
+            <a href="visite-contact.html">Visite et Contact</a>
+        </nav>
+        <h1>Musée Guggenheim Bilbao</h1>
+    </header>
+
+    <main>
+        <!-- Citation -->
+        <blockquote>
+            « L'architecture doit parler de son temps et de son lieu, mais rêver d'éternité. »
+        </blockquote>
+
+        <!-- Description -->
+        <section class="description">
+            <h2>L'exposition</h2>
+            <p>
+                Inauguré en 1997, le Musée Guggenheim de Bilbao est une œuvre
+                architecturale signée Frank Gehry. Ses formes titanesques
+                abritent des collections d'art moderne et contemporain parmi
+                les plus prestigieuses au monde. Explorez nos salles et
+                découvrez des œuvres qui repoussent les frontières de la création.
+            </p>
+        </section>
+
+        <!-- ImageMap -->
+        <section class="image-map">
+    <h2>Découvrir le musée</h2>
+    <img src="assets/MuseePhotoDehors.jpg"
+         alt="Vue extérieure du Musée Guggenheim Bilbao avec la sculpture Maman"
+         usemap="#carte-musee"
+         width="800" height="500">
+
+    <map name="carte-musee">
+        <!-- Sculpture Maman (c'est l'araignée) -->
+        <area shape="circle"
+              coords="150,280,60"
+              href="https://fr.wikipedia.org/wiki/Maman_(sculpture)"
+              alt="Découvrir Maman de Louise Bourgeois"
+              target="_blank">
+
+        <!-- Entrée du musée -->
+        <area shape="rect"
+              coords="450,180,635,310"
+              href="https://www.guggenheim-bilbao.eus/"
+              alt="Visiter le site officiel du musée"
+              target="_blank">
+    </map>
+    </section>
+       
+    </main>
+
+    <footer>
+        <p>Musée Guggenheim Bilbao — 2026</p>
+    </footer>
+</body>
+</html>

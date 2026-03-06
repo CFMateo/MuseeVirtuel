@@ -1,0 +1,80 @@
+ 
+/* Mateo Coda-Forno 20266263 | Nom Prénom Matricule */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.page-accueil {
+    background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+    color: #ffffff;
+    min-height: 100vh;
+    font-family: 'Lato', sans-serif;
+}
+
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    color: #e94560;
+    text-align: center;
+    padding: 2rem;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    color: #e94560;
+}
+
+
+blockquote {
+    text-align: center;
+    font-style: italic;
+    font-size: 1.5rem;
+    padding: 3rem 2rem;
+    color: #a8a8b3;
+}
+
+
+.description {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    line-height: 1.8;
+}
+
+.description h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #e94560;
+}
+
+
+.image-map {
+    text-align: center;
+    padding: 2rem;
+}
+
+.image-map img {
+    max-width: 100%;
+    height: auto;
+}
