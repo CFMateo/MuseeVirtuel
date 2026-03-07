@@ -102,3 +102,14 @@ blockquote {
 #titre {
     color: #ffd369;    
 }
+
+.page-oeuvres #cartel a {
+    color: #e94560;
+    text-decoration: none;
+}
+
+.page-oeuvres #cartel a:hover {
+    color: #ffd369;
+    text-decoration: underline;
+}
+
