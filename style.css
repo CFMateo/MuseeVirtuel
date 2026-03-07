@@ -183,3 +183,24 @@ footer {
     margin-top: 3rem;
     border-top: 1px solid rgba(201, 168, 76, 0.15);
 }
+
+
+.page-oeuvres .description {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+.page-oeuvres .description .titre {
+    width: 100%;
+}
+
+.page-oeuvres .description p {
+    flex: 1;
+    min-width: 250px;
+}
+
+.page-oeuvres .description .cartel {
+    width: 100%;
+}
