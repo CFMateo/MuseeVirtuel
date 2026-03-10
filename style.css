@@ -204,3 +204,17 @@ footer {
 .page-oeuvres .description .cartel {
     width: 100%;
 }
+
+/* PAGE VISITE-CONTACT */
+.icones-liens {
+    display: flex;
+    gap: 16px;
+}
+
+.icones-liens a:hover {
+    transform: scale(1.08);
+}
+
+.icones-liens svg {
+    display: block;
+}
