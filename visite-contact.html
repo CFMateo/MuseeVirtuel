@@ -20,22 +20,23 @@
     </header>
 
     <main>
-
+        <!-- section visite -->
         <section class="description">
             <h2>Planifiez votre visite</h2>
             <p>Le Musée Virtuel est ouvert du mardi au dimanche de 10h à 19h. Nous sommes fermés le lundi.</p>
             <p>Adresse : Abandoibarra Etorb., 2, Abando, 48009 Bilbao, Bizkaia, Espagne</p>
-            <p>Tarifs : 
+            <p>Tarifs : </p> 
                 <ul>
                     <li>Adulte : 10€</li>
                     <li>Enfant (moins de 12 ans) : Gratuit</li>
                     <li>Étudiant : 5€</li>
                     <li>Sénior : 7€</li>
                 </ul>
-            </p>
-            <p>Nous recommandons de réserver vos billets à l'avance pour garantir votre entrée, surtout pendant les périodes de forte affluence.</p>
+            <p>Nous recommandons de réserver vos billets à l'avance pour garantir votre entrée,
+                 surtout pendant les périodes de forte affluence.</p>
         </section>  
 
+        <!-- section contact -->
         <section class="description">
             <h2>Contactez-nous</h2>
             <p>Pour toute question ou demande d'information, n'hésitez pas à nous contacter :</p>
@@ -43,7 +44,74 @@
                 <li>Email : <a href="mailto:informacion@guggenheim-bilbao.eus">informacion@guggenheim-bilbao.eus</a></li>
                 <li>Téléphone : <a href="tel:+34944359000">+34 944 35 90 00</a></li>
             </ul>
+
+            <p>Nous suivre sur les réseaux sociaux :</p>  
+
+            <!--Icone SVG-->  
+            <div class="icones-liens">
+                <a href="https://www.facebook.com/guggenheimbilbaomuseo" target="_blank" rel="noopener noreferrer" title="Facebook">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M13 22v-8h3l1-4h-4V8c0-1.2.3-2 2-2h2V2.5c-.3 0-1.4-.1-2.7-.1-2.7 0-4.3 1.6-4.3 4.7V10H7v4h3v8h3z"/>
+                    </svg>
+                </a>
+                <a href="https://www.instagram.com/museoguggenheim/" target="_blank" rel="noopener noreferrer" titre="Instagram">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                    <rect x="3" y="3" width="18" height="18" rx="5" ry="5"/>
+                    <circle cx="12" cy="12" r="4"/>
+                    <circle cx="17.5" cy="6.5" r="1"/>
+                    </svg>
+                </a>
+            </div>
         </section>  
+
+        <!-- Animation SVG -->
+          <svg width="600" height="200" viewBox="0 0 600 200" xmlns="http://www.w3.org/2000/svg">
+            <rect width="600" height="200" fill="#1b1f3b" opacity="0.5"/>
+            <g> 
+                <!-- cercle -->
+                <circle cx="100" cy="100" r="80" fill="#1b1f3b" stroke="#1b1f3b" stroke-width="3">
+                <animate
+                attributeName="fill"
+                values="#c9a84c;#1b1f3b;#c9a84c"
+                dur="3s"
+                repeatCount="indefinite"/>
+                </circle>
+
+                <!-- forme logo -->
+                <path
+                d="
+                M100 30
+                A70 70 0 1 0 170 100
+                L130 100
+                A30 30 0 1 1 100 70
+                L100 30
+                Z"
+                fill="#1b1f3b">
+
+                <animate
+                attributeName="fill"
+                values="#1b1f3b;#c9a84c;#1b1f3b"
+                dur="3s"
+                repeatCount="indefinite"/>
+
+                </path>
+
+                <!-- quart de cercle -->
+                <path
+                d="M100 100
+                L140 100
+                A40 40 0 0 1 100 140
+                Z"
+                fill="black">
+                <animate
+                attributeName="fill"
+                values="#1b1f3b;#c9a84c;#1b1f3b"
+                dur="3s"
+                repeatCount="indefinite"/>
+
+                </path>
+            </g>
+        </svg>       
 
     </main>
 
