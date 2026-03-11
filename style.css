@@ -241,5 +241,73 @@ nav a.active {
 }
 
 
+/* Pour adapter le site aux gens sur tablette et mobile (ca s'adapte selon la largeur de l'écran en pixels (1024->tablette, et 768 pour mobile)*/
+@media (max-width: 1024px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    .grille-galerie {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .image-oeuvre img {
+        width: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.8rem;
+        padding: 1.5rem 0.5rem;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    blockquote {
+        font-size: 1.2rem;
+        padding: 2rem 1rem;
+    }
+
+    .description {
+        padding: 1rem;
+    }
+
+    .page-oeuvres .description {
+        flex-direction: column;
+    }
+
+    .image-oeuvre img {
+        width: 100%;
+    }
+
+    .image-map img {
+        width: 100%;
+    }
+
+    .grille-galerie {
+        grid-template-columns: 1fr;
+        padding: 1rem;
+    }
+
+    .carte-galerie img {
+        height: 200px;
+    }
+    .cartel {
+        padding: 1rem;
+    }
+
+    .icones-liens {
+        justify-content: center;
+    }
+
+    footer {
+        padding: 1rem;
+    }
+}
 
 
