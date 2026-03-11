@@ -105,6 +105,7 @@ blockquote {
     margin: 2rem auto;
     max-width: 800px;
     border-radius: 8px;
+    animation: animation-oeuvres 1s ease-in;  
 }
 
 .cartel a {
@@ -119,6 +120,7 @@ blockquote {
 .image-oeuvre img {
     width: 400px;
     transition: transform 0.4s;
+    animation: animation-oeuvres 1.2s ease-in;
 }
 
 .image-oeuvre img:hover {
@@ -225,3 +227,19 @@ nav a.active {
     border-bottom: 2px solid #c9a84c;
     padding-bottom: 0.3rem;
 }
+
+/* Animation VISUELLE pour la page oeuvres (slide in de gauche à droite les images + les boites d'infomations (cartel) */
+@keyframes animation-oeuvres {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 2;
+        transform: translateX(0);
+    }
+}
+
+
+
+
