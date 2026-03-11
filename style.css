@@ -219,3 +219,9 @@ footer {
     display: block;
 }
 
+
+nav a.active {
+    color: #c9a84c;
+    border-bottom: 2px solid #c9a84c;
+    padding-bottom: 0.3rem;
+}
