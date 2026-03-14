@@ -187,25 +187,6 @@ footer {
 }
 
 
-.page-oeuvres .description {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    align-items: flex-start;
-}
-
-.page-oeuvres .description .titre {
-    width: 100%;
-}
-
-.page-oeuvres .description p {
-    flex: 1;
-    min-width: 250px;
-}
-
-.page-oeuvres .description .cartel {
-    width: 100%;
-}
 
 /* PAGE VISITE-CONTACT */
 .icones-liens {
