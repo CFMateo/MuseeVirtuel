@@ -7,11 +7,11 @@ Session : Hiver 2026
 
 ## Membres de l’équipe
 
-Nom : 
-Matricule :
+Nom : Mateo Coda-Forno
+Matricule : 20266263  
 
-Nom : 
-Matricule : 
+Nom : Mariama Amadou Amadou
+Matricule : 20289908 
 
 ---
 
